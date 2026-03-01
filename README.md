@@ -23,52 +23,52 @@ The objective is to analyze historical sales data, generate business insights, a
 
 ## 🎯 Business Objectives
 
-- Analyze revenue by region and category
-- Identify monthly sales trends
-- Evaluate product-level performance
-- Measure category contribution to total revenue
-- Forecast next 6 months sales using Linear Regression
+- Analyze revenue by region and category  
+- Identify monthly sales trends  
+- Evaluate product-level performance  
+- Measure category contribution to total revenue  
+- Forecast next 6 months sales using Linear Regression  
 
 ---
 
 ## 🛠 Tools & Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn (Linear Regression)
-- Power BI
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn (Linear Regression)  
+- Power BI  
 
 ---
 
 ## 📂 Project Workflow
 
 ### 1️⃣ Data Cleaning & Preprocessing
-- Converted `Order Date` to datetime format
-- Handled missing values
-- Removed null records
-- Created new time-based features (Month, Year, Quarter)
+- Converted `Order Date` to datetime format  
+- Handled missing values  
+- Removed null records  
+- Created new time-based features (Month, Year, Quarter)  
 
 ### 2️⃣ Feature Engineering
-- Created Revenue column
-- Generated time index for forecasting
-- Aggregated monthly revenue
+- Created Revenue column  
+- Generated time index for forecasting  
+- Aggregated monthly revenue  
 
 ### 3️⃣ Exploratory Data Analysis (EDA)
-- Revenue by Region (Bar Chart)
-- Monthly Sales Trend (Line Chart)
-- Product vs Region Heatmap
-- Revenue Share by Category (Pie Chart)
+- Revenue by Region (Bar Chart)  
+- Monthly Sales Trend (Line Chart)  
+- Product vs Region Heatmap  
+- Revenue Share by Category (Pie Chart)  
 
 ### 4️⃣ Sales Forecasting (Machine Learning)
-- Used Linear Regression model
-- Time-series aware train-test split (no shuffle)
-- Evaluated using:
-  - R² Score
-  - RMSE
-- Forecasted revenue for next 6 months
+- Used Linear Regression model  
+- Time-series aware train-test split (no shuffle)  
+- Evaluated using:  
+  - R² Score  
+  - RMSE  
+- Forecasted revenue for next 6 months  
 
 ---
 
@@ -76,8 +76,8 @@ The objective is to analyze historical sales data, generate business insights, a
 
 The model performance is measured using:
 
-- **R² Score**
-- **Root Mean Squared Error (RMSE)**
+- **R² Score**  
+- **Root Mean Squared Error (RMSE)**  
 
 These metrics evaluate how well the model predicts future revenue trends.
 
@@ -93,11 +93,11 @@ The project predicts the next 6 months of revenue using a trained Linear Regress
 
 The dashboard includes:
 
-- KPI Cards (Total Revenue, Total Profit, Profit Margin)
-- Revenue by Year
-- Revenue by Category
-- Revenue by Sub-Category & Region
-- Regional Profit Analysis
+- KPI Cards (Total Revenue, Total Profit, Profit Margin)  
+- Revenue by Year  
+- Revenue by Category  
+- Revenue by Sub-Category & Region  
+- Regional Profit Analysis  
 
 ### Dashboard Screenshot:
 
@@ -108,3 +108,24 @@ The dashboard includes:
 ## 🚀 How to Run the Project
 
 ### Step 1: Clone Repository
+
+```bash
+git clone https://github.com/mangeshnersekar44-web/sales-performance-analysis-python-powerbi.git
+
+###Step 2: Navigate to Project Folder
+cd sales-performance-analysis-python-powerbi
+
+###Step 3: Install Required Libraries
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+###Step 4: Run Python Script
+python "mini project1.py"
+
+
+🌐 Connect With Me::
+👨‍💻 Mangesh Nersekar
+Aspiring Data Analyst | Python | Power BI | Machine Learning
+🔗 LinkedIn:
+https://www.linkedin.com/in/mangesh-nersekar-350750315/
+💻 GitHub:
+https://github.com/mangeshnersekar44-web
