@@ -106,26 +106,39 @@ The dashboard includes:
 ---
 
 ## 🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 ### Step 1: Clone Repository
 
 ```bash
 git clone https://github.com/mangeshnersekar44-web/sales-performance-analysis-python-powerbi.git
+```
 
-###Step 2: Navigate to Project Folder
+### Step 2: Navigate to Project Folder
+
+```bash
 cd sales-performance-analysis-python-powerbi
+```
 
-###Step 3: Install Required Libraries
+### Step 3: Install Required Libraries
+
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
-###Step 4: Run Python Script
+### Step 4: Run Python Script
+
+```bash
 python "mini project1.py"
+```
 
+🌐 Connect With Me
 
-🌐 Connect With Me::
 👨‍💻 Mangesh Nersekar
 Aspiring Data Analyst | Python | Power BI | Machine Learning
+
 🔗 LinkedIn:
 https://www.linkedin.com/in/mangesh-nersekar-350750315/
+
 💻 GitHub:
 https://github.com/mangeshnersekar44-web
